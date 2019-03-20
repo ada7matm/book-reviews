@@ -1,10 +1,15 @@
-header nav ul {
+header {
+    border-bottom: 1px solid #d3d0cf;
+    margin-bottom: 100px;
+}
+
+.menu-list {
     list-style: none;
     padding: 0;
     overflow: auto;
 }
 
-header nav ul li a {
+.menu-link {
     text-transform: uppercase;
     color: black;
     text-decoration: none;
@@ -15,11 +20,6 @@ header nav ul li a {
     float: left;
     font-family: Playfair Display,Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
     margin-right: 15px;
-}
-
-header {
-    border-bottom: 1px solid #d3d0cf;
-    margin-bottom: 100px;
 }
 
 .column {
@@ -59,7 +59,7 @@ header {
 }
 
 .book-img {
-    width: 100%;
+    max-height: 400px;
 }
 
 .book-title {
@@ -74,7 +74,7 @@ header {
     font-family: Playfair Display,Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
 }
 
-#contact-form label, .book-description, .read-more {
+#contact-form .contac-label, .book-description, .read-more, .news-resume {
     font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
 }
 
@@ -82,22 +82,22 @@ header {
     color: #ff4b2e;
 }
 
-#news {
+#latest-news {
     float: right;
     width: 20%;
 }
 
-.new {
+.news {
     border-bottom: 1px dashed black;
     padding-bottom: 25px;
 }
 
-.new-title {
+.news-title {
     font-family: Playfair Display,Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
     font-weight: bold;
 }
 
-#contact-section {
+#contact {
     clear: both;
 }
 
@@ -108,14 +108,14 @@ header {
 }
 
 /* Fields */
-#contact-form label {
+#contact-form .contact-label {
     display: block;
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
-#contact-form input,
-#contact-form textarea {
+#contact-form .contact-input,
+#contact-form .contact-textarea {
     background-color: transparent; /* Remove background fill */
     text-transform: uppercase; /* Make text all uppercase */
     border-radius: 0; /* Remove corner curve */
@@ -144,7 +144,7 @@ header {
    color:    black;
 }
 /* Button */
-#contact-form button[type=submit] {
+#contact-form .send-button {
    text-transform: uppercase;
    padding: 10px 60px;
    color: black;
@@ -168,7 +168,7 @@ footer {
     font-family: sans-serif;
 }
 
-.footer-links ul {
+.footer-links .footer-links-list {
     list-style: none;
     padding: 0;
 }
