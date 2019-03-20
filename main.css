@@ -1,0 +1,190 @@
+header nav ul {
+    list-style: none;
+    padding: 0;
+    overflow: auto;
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    display: block;
+    float: left;
+    font-family: Playfair Display,Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
+    margin-right: 15px;
+}
+
+header {
+    border-bottom: 1px solid #d3d0cf;
+    margin-bottom: 100px;
+}
+
+.column {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.banner {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+#book-reviews {
+    float: left;
+    margin-right: 40px;
+}
+
+.title {
+    height: 55px;
+    font-size: 35px;
+    font-family: Playfair Display,Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin: 15px 0 35px 0;
+}
+
+.book-review {
+    width: 300px;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 40px;
+}
+
+.book-review:nth-of-type(4) {
+    clear: both;
+}
+
+.book-img {
+    width: 100%;
+}
+
+.book-title {
+    color: #ff4b2e;
+    font-size: 30px;
+    font-style: italic;
+    font-family: Playfair Display,Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
+    font-weight: bold;
+}
+
+.book-author {
+    font-family: Playfair Display,Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
+}
+
+#contact-form label, .book-description, .read-more {
+    font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
+}
+
+.read-more {
+    color: #ff4b2e;
+}
+
+#news {
+    float: right;
+    width: 20%;
+}
+
+.new {
+    border-bottom: 1px dashed black;
+    padding-bottom: 25px;
+}
+
+.new-title {
+    font-family: Playfair Display,Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
+    font-weight: bold;
+}
+
+#contact-section {
+    clear: both;
+}
+
+#contact-form {
+    padding-top: 10px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Fields */
+#contact-form label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    background-color: transparent; /* Remove background fill */
+    text-transform: uppercase; /* Make text all uppercase */
+    border-radius: 0; /* Remove corner curve */
+    border: 1px solid black; /* 2px white border */
+    color: black; /* White text */
+    height: 45px; /* Increase input height */
+    width: 100%;
+    padding: 0 10px;
+    font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    black;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    black;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    black;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    black;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    black;
+}
+/* Button */
+#contact-form button[type=submit] {
+   text-transform: uppercase;
+   padding: 10px 60px;
+   color: black;
+   background: #fff;
+   font-size: 20px;
+   font-weight: bold;
+   border: 2px solid black;
+   margin: 60px auto 0 auto;
+   font-family: Playfair Display,Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
+   display: block; 
+}
+
+footer {
+    border-top: 1px solid #d3d0cf;
+    margin-top: 100px;
+}
+
+.footer-links {
+    float: left;
+    margin-right: 30px;
+    font-family: sans-serif;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links-title {
+    font-size: 11px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.footer-link {
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    font-size: 12.5px;
+    font-weight: lighter;
+    padding-bottom: 15px;
+    display: block;
+}
