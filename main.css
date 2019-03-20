@@ -23,7 +23,7 @@ header {
 }
 
 .column {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -35,6 +35,7 @@ header {
 #book-reviews {
     float: left;
     margin-right: 40px;
+    width: 70%;
 }
 
 .title {
@@ -47,7 +48,7 @@ header {
 }
 
 .book-review {
-    width: 300px;
+    width: 30%;
     float: left;
     margin-right: 25px;
     margin-bottom: 40px;
