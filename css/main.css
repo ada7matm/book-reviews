@@ -189,3 +189,68 @@ footer {
     padding-bottom: 15px;
     display: block;
 }
+
+/*
+    Seccion autoras
+*/
+
+.authors-title {
+    color: #000;
+    font-size: 56px;
+    font-family: Playfair Display,Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
+    font-weight: bold;
+    margin: 30px 0 0 0;
+    text-align: center;
+}
+
+.small-column {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.authors-subtitle {
+    color: #000;
+    font-size: 24px;
+    font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
+    margin: 15px 0 140px 0;
+    font-weight: normal;
+    text-align: center;
+}
+
+.author {
+    clear: both;
+    overflow: auto;
+    margin-bottom: 35px;
+}
+
+.author-portrait {
+    float: left;
+    margin-right: 30px; 
+    width: 300px;
+}
+
+.author.right .author-portrait {
+    float: right;
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+.author-name {
+    color: #ff4b2e;
+    font-size: 30px;
+    font-style: italic;
+    font-family: Playfair Display,Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
+    font-weight: bold;
+}
+
+.author.right .author-name, .author.right .author-dates, .author.right .author-resume {
+    text-align: right;
+}
+
+.author-dates {
+    font-family: Playfair Display,Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
+}
+
+.author-resume {
+    font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
+}
